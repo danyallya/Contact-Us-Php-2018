@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+
+    footer .phone, footer .location {
+        font-size: 18px;
+    }
+
+    footer .location {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .col-xs-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .filter-btn {
+        display: block;
+    }
+
+    .filter-box.active {
+        transform: translateX(0);
+    }
+
+    .filter-box {
+        position: absolute;
+        z-index: 9;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    footer .sm-p {
+        padding: 25px;
+    }
+
+    .category {
+        text-align: center;
+    }
+
+    footer ul li {
+        font-size: 12px;
+    }
+
+    footer {
+        padding-top: 39px;
+    }
+
+    footer .logo {
+        width: 60%;
+        right: 20%;
+    }
+
+    .text-section a.btn {
+        margin: 0 auto;
+        display: table;
+        float: none !important;
+    }
+
+    .b-a-style .text-section:before {
+        bottom: 0;
+        left: 41%;
+    }
+
+    #trapezoid {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .b-a-style .text-section:before {
+        bottom: -60px;
+        left: 18%;
+    }
+
+    footer .get-news button {
+        font-size: 10px;
+    }
+
+    .text-section .title {
+        font-size: 15px;
+    }
+}

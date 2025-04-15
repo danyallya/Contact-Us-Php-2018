@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Vazir;
+    src: url('../font/Vazir-FD-WOL.eot');
+    src: url('../font/Vazir-FD-WOL.eot?#iefix') format('eot'), url('../font/Vazir-FD-WOL.woff') format('woff'), url('../font/Vazir-FD-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Harabara;
+    src: url('../font/Harabara.ttf.eot');
+    src: url('../font/Harabara.ttf.eot') format('eot'), url('../font/Harabara.ttf.woff') format('woff');
+    font-weight: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Vazir, serif !important;
+    direction: rtl;
+    text-align: right;
+    background: #f2f5fa;
+    width: 100%;
+    height: 100%;
+}
+
+.section-one {
+    background: url(../image/bac.jpg);
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+    background-size: cover;
+}
+
+header .logo-text {
+    color: white;
+    font-weight: bold;
+
+}
+
+header .logo-text .en-text {
+    font-family: Harabara !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.62);
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    letter-spacing: 10px;
+}
+
+header li .uk-navbar-toggle, header .nav-link {
+    color: white !important;
+}
+
+.uk-navbar-right {
+    padding: 0 15px;
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+
+header .technical {
+    display: table;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+header .uk-navbar-flip li {
+    font-weight: bold;
+}
+
+header .technical div:first-child {
+    padding: 8px;
+    background-color: #1d231f;
+    color: white;
+}
+
+header .technical div:last-child {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    margin-left: -1px;
+}
+
+header .fa-search {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: white !important;
+    font-family: Vazir, serif !important;
+
+}
+
+.info h1, .info h2, .info h3, .info h4, .info h5 {
+    margin: 35px 0 !important;
+    font-weight: bold;
+}
+
+.box-form label {
+    width: 100%;
+    font-family: Vazir, serif !important;
+    font-weight: bold;
+    color: #000000a3;
+
+}
+
+.items ul {
+    display: table;
+    margin-right: auto;
+}
+
+.items li {
+    margin: 18px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.box-form input, .box-form textarea {
+    outline: 0;
+    width: 100%;
+    background-color: #d4d4d4;
+    font-family: Vazir, serif !important;
+
+    border: 0;
+    border-radius: 8px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 4px 10px;
+    border-bottom: 2px solid #7f8284;
+}
+
+.social {
+    display: table;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.box-form button {
+    width: 50%;
+    margin: 0 auto;
+    display: table;
+    border: 0;
+    outline: 0;
+    color: #696969;
+    border-radius: 3px;
+    min-height: 38px;
+    border: 1px solid #7f82842b;
+    background-color: #d8d8d8;
+    /* letter-spacing: 1px; */
+    border-bottom: 2px solid #7f8284;
+    font-size: 16px;
+    transition: all 0.5s;
+    font-weight: bold;
+    box-shadow: 0 0 10px 0 #0000001f;
+
+}
+
+.box-form button:active {
+    border-bottom: 0;
+    min-height: 45px;
+
+}
+
+form {
+    width: 55%;
+    margin: 0 auto;
+    padding: 26px;
+    padding-top: 15px;
+    border-radius: 21px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 23px 0 #ffffff36;
+}
+
+.social div {
+    float: right;
+    margin: 10px;
+}
+
+.social .insta {
+    background-image: url(../image/social.png);
+    background-position: 0 0;
+    width: 18px;
+    height: 20px;
+}
+
+.social .facebook {
+    background-image: url(../image/social.png);
+    background-position: 114px 0;
+    width: 18px;
+    height: 20px;
+}
+
+.social .whatsup {
+    background-image: url(../image/social.png);
+    background-position: 64px 0;
+    width: 18px;
+    height: 20px;
+}
+
+.social .twitter {
+    background-image: url(../image/social.png);
+    background-position: 86px 0;
+    width: 18px;
+    height: 20px;
+}
+
